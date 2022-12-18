@@ -14,7 +14,7 @@ in_path()
 
    for directory in “$ourpath”
    do
-     echo $directory/$cmd
+     # echo $directory/$cmd
      if [ -x $directory/$cmd ] ; then
        result=0      # if we're here, we found $cmd in $directory
      fi
